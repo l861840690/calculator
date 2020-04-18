@@ -64,7 +64,7 @@ class Main extends JApplet implements ActionListener {
             textField.setText(numStr+"="+result);
             cnt = 1;
         } else
-            input += actionCommand;//数字为了避免多位数的输入 不需要加空格
+            input += actionCommand;
         if (cnt == 0)
             textField.setText(input);
     }
